@@ -218,7 +218,7 @@ formFeed.addEventListener('submit', function(e) {
     e.preventDefault();
 
     const contentsAvailable = ['msgs', 'topics'];
-    const productsAvailable = ['YouTube', 'Chrome', 'Gmail', 'AdSense', 'Maps', 'Photos', 'WebSearch', 'Calendar', 'Webmaster','Apps"];
+    const productsAvailable = ['YouTube', 'Chrome', 'Gmail', 'AdSense', 'Maps', 'Photos', 'WebSearch', 'Calendar', 'Webmaster','apps"];
 
     let show = document.getElementById('showFeed').checked;
     let content = contentsAvailable.includes(document.getElementById('contentFeed').value) ? document.getElementById('contentFeed').value : false;
